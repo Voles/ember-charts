@@ -10,7 +10,7 @@ export default Ember.Mixin.create({
   // Tint is the amount of white to mix the seed color with. 0.8 means 80% white
   tint: 0.8,
   minimumTint: 0,
-  maximumTint: 0.66,
+  maximumTint: 0,
   colorScaleType: d3.scale.linear,
 
   // colorScale is the end of the color scale pipeline so we rerender on that
