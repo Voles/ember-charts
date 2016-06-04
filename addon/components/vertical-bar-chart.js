@@ -83,7 +83,7 @@ const VerticalBarChartComponent = ChartComponent.extend(LegendMixin,
       if (Ember.isEmpty(summedGroupValues)) {
         return Ember.A();
       } else if (key != null) {
-        sortedGroups = summedGroupValues.sortBy(key);
+        sortedGroups = summedGroupValues;//.sortBy(key);
         if (!sortAscending) {
           sortedGroups = sortedGroups.reverse();
         }
